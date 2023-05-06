@@ -1,0 +1,133 @@
+.top-container{
+  background-color: #453C67;
+  position:relative;
+  padding-top: 100px;
+}
+body{
+
+
+  margin: 0%;
+  text-align: center;   /*this alligns all the images in body in centre too*/
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size:5.625rem;           /* if a value is specified in % then it adjust according to users browser 100%=16px=1em , rem is best coz it doent get affected by parent settings*/
+  color:  #6D9886;                        /* there is a difference btw pixles(px) and % */
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  height: 2;
+
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #11999E;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat',sans-serif;
+
+}
+hr{
+border: dotted #80489C ;
+border-width:6px;
+border-bottom: :none;
+width: 4%;
+margin: 100px auto;
+border-top: none;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.middle-container {
+
+ margin: 80px 0px;
+
+}
+
+.bottom-container{
+background-color: #80489C;
+margin: 100px auto ;
+padding: 50px 0 20px;
+
+}
+.bottom-cloud{
+  position: absolute;
+}
+.top-cloud{
+  position: absolute;
+  right: 220px;
+}
+.img2{
+  border-radius:100%;
+  width: 20%;
+  length:20%;
+
+}
+.profile{
+  border-radius: 100%;
+  width: 10%;
+  length:10%;
+}
+.img3{
+  border-radius:100%;
+  width: 30%;
+  length:30%;
+  float: left;
+  margin-right: 30px;
+}
+.img4{
+  border-radius:100%;
+  width: 30%;
+  length:30%;
+  float: right;
+  margin-left: 30px;
+
+}
+.img5{
+  border-radius:100%;
+  width: 15%;
+  length:15%;
+}
+.intro{
+  color: #66BFBF;
+}
+
+.btn {
+  background: #cb34d9;
+  background-image: -webkit-linear-gradient(top, #cb34d9, #2980b9);
+  background-image: -moz-linear-gradient(top, #cb34d9, #2980b9);
+  background-image: -ms-linear-gradient(top, #cb34d9, #2980b9);
+  background-image: -o-linear-gradient(top, #cb34d9, #2980b9);
+  background-image: linear-gradient(to bottom, #cb34d9, #2980b9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #34d99c);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #34d99c);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #34d99c);
+  background-image: -o-linear-gradient(top, #3cb0fd, #34d99c);
+  background-image: linear-gradient(to bottom, #3cb0fd, #34d99c);
+  text-decoration: none;
+}
+
+
+
+
+
+/* remember the concept of inline elements(span,img etc)  and block elements(<p>) concepts and then using display attribute to change these things
